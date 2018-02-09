@@ -1,0 +1,211 @@
+﻿生成启动时间为 2018/2/5 15:28:58。
+     1>项目“D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\libzmq.vcxproj”在节点 2 上(Build 个目标)。
+     1>ConfigInfo:
+         ConfigurationType : DynamicLibrary
+         Configuration     : ReleaseDLL
+         PlatformToolset   : v110
+         TargetPath        : D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\bin\Win32\Release\v110\dynamic\libzmq.dll
+       OptionInfo:
+         Option-tweet      : 
+         Option-sodium     : 
+         Option-openpgm    : 
+         Option-gssapi     : 
+         Option-draftapi   : 
+         Option-usepoll    : 
+       ClCompile:
+         D:\wsd\vs\VC\bin\CL.exe /c /I"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\\" /I"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\include\\" /Zi /nologo /W3 /WX- /MP /O2 /Ob1 /Oi /Oy- /D DLL_EXPORT /D ZMQ_USE_SELECT /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D FD_SETSIZE=16384 /D WIN32_LEAN_AND_MEAN /D _DLL /D _WINDLL /D NDEBUG /D UNICODE /D _UNICODE /D WIN32 /D _WIN32 /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"precompiled.hpp" /Fp"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\libzmq.pch" /Fo"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\\" /Fd"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /Oy- ..\..\..\..\src\precompiled.cpp
+         precompiled.cpp
+         D:\wsd\vs\VC\bin\CL.exe /c /I"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\\" /I"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\include\\" /Zi /nologo /W3 /WX- /MP /O2 /Ob1 /Oi /Oy- /D DLL_EXPORT /D ZMQ_USE_SELECT /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D FD_SETSIZE=16384 /D WIN32_LEAN_AND_MEAN /D _DLL /D _WINDLL /D NDEBUG /D UNICODE /D _UNICODE /D WIN32 /D _WIN32 /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"precompiled.hpp" /Fp"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\libzmq.pch" /Fo"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\\" /Fd"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /Oy- ..\..\..\..\src\address.cpp ..\..\..\..\src\client.cpp ..\..\..\..\src\clock.cpp ..\..\..\..\src\ctx.cpp ..\..\..\..\src\curve_client.cpp ..\..\..\..\src\curve_server.cpp ..\..\..\..\src\dealer.cpp ..\..\..\..\src\decoder_allocators.cpp ..\..\..\..\src\devpoll.cpp ..\..\..\..\src\dgram.cpp ..\..\..\..\src\dish.cpp ..\..\..\..\src\dist.cpp ..\..\..\..\src\epoll.cpp ..\..\..\..\src\err.cpp ..\..\..\..\src\fq.cpp ..\..\..\..\src\gather.cpp ..\..\..\..\src\gssapi_client.cpp ..\..\..\..\src\gssapi_mechanism_base.cpp ..\..\..\..\src\gssapi_server.cpp ..\..\..\..\src\io_object.cpp ..\..\..\..\src\io_thread.cpp ..\..\..\..\src\ip.cpp ..\..\..\..\src\ipc_address.cpp ..\..\..\..\src\ipc_connecter.cpp ..\..\..\..\src\ipc_listener.cpp ..\..\..\..\src\kqueue.cpp ..\..\..\..\src\lb.cpp ..\..\..\..\src\mailbox.cpp ..\..\..\..\src\mailbox_safe.cpp ..\..\..\..\src\mechanism.cpp ..\..\..\..\src\metadata.cpp ..\..\..\..\src\msg.cpp ..\..\..\..\src\mtrie.cpp ..\..\..\..\src\null_mechanism.cpp ..\..\..\..\src\object.cpp ..\..\..\..\src\options.cpp ..\..\..\..\src\own.cpp ..\..\..\..\src\pair.cpp ..\..\..\..\src\pgm_receiver.cpp ..\..\..\..\src\pgm_sender.cpp ..\..\..\..\src\pgm_socket.cpp ..\..\..\..\src\pipe.cpp ..\..\..\..\src\plain_client.cpp ..\..\..\..\src\plain_server.cpp ..\..\..\..\src\poll.cpp ..\..\..\..\src\poller_base.cpp ..\..\..\..\src\proxy.cpp ..\..\..\..\src\pub.cpp ..\..\..\..\src\pull.cpp ..\..\..\..\src\push.cpp ..\..\..\..\src\radio.cpp ..\..\..\..\src\random.cpp ..\..\..\..\src\raw_decoder.cpp ..\..\..\..\src\raw_encoder.cpp ..\..\..\..\src\reaper.cpp ..\..\..\..\src\rep.cpp ..\..\..\..\src\req.cpp ..\..\..\..\src\router.cpp ..\..\..\..\src\scatter.cpp ..\..\..\..\src\select.cpp ..\..\..\..\src\server.cpp ..\..\..\..\src\session_base.cpp ..\..\..\..\src\signaler.cpp ..\..\..\..\src\socket_base.cpp ..\..\..\..\src\socket_poller.cpp ..\..\..\..\src\socks.cpp ..\..\..\..\src\socks_connecter.cpp ..\..\..\..\src\stream.cpp ..\..\..\..\src\stream_engine.cpp ..\..\..\..\src\sub.cpp ..\..\..\..\src\tcp.cpp ..\..\..\..\src\tcp_address.cpp ..\..\..\..\src\tcp_connecter.cpp ..\..\..\..\src\tcp_listener.cpp ..\..\..\..\src\thread.cpp ..\..\..\..\src\timers.cpp ..\..\..\..\src\trie.cpp ..\..\..\..\src\udp_address.cpp ..\..\..\..\src\udp_engine.cpp ..\..\..\..\src\v1_decoder.cpp ..\..\..\..\src\v1_encoder.cpp ..\..\..\..\src\v2_decoder.cpp ..\..\..\..\src\v2_encoder.cpp ..\..\..\..\src\xpub.cpp ..\..\..\..\src\xsub.cpp ..\..\..\..\src\zmq.cpp ..\..\..\..\src\zmq_utils.cpp
+         address.cpp
+         client.cpp
+         clock.cpp
+         ctx.cpp
+         curve_client.cpp
+         curve_server.cpp
+         dealer.cpp
+         decoder_allocators.cpp
+         devpoll.cpp
+         dgram.cpp
+         dish.cpp
+         dist.cpp
+         epoll.cpp
+         err.cpp
+         fq.cpp
+         gather.cpp
+         gssapi_client.cpp
+         gssapi_mechanism_base.cpp
+         gssapi_server.cpp
+         io_object.cpp
+         io_thread.cpp
+         ip.cpp
+         ipc_address.cpp
+         ipc_connecter.cpp
+         ipc_listener.cpp
+         kqueue.cpp
+         lb.cpp
+         mailbox.cpp
+         mailbox_safe.cpp
+         mechanism.cpp
+         metadata.cpp
+         msg.cpp
+         mtrie.cpp
+         null_mechanism.cpp
+         object.cpp
+         options.cpp
+         own.cpp
+         pair.cpp
+         pgm_receiver.cpp
+         pgm_sender.cpp
+         pgm_socket.cpp
+         pipe.cpp
+         plain_client.cpp
+         plain_server.cpp
+         poll.cpp
+         poller_base.cpp
+         proxy.cpp
+     1>..\..\..\..\src\proxy.cpp(37): warning C4627: “#include <poll.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“precompiled.hpp”或重新生成预编译头
+         pub.cpp
+         pull.cpp
+         push.cpp
+         radio.cpp
+         random.cpp
+         raw_decoder.cpp
+         raw_encoder.cpp
+         reaper.cpp
+         rep.cpp
+         req.cpp
+         router.cpp
+         scatter.cpp
+         select.cpp
+         server.cpp
+         session_base.cpp
+         signaler.cpp
+     1>..\..\..\..\src\signaler.cpp(37): warning C4627: “#include <poll.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“precompiled.hpp”或重新生成预编译头
+         socket_base.cpp
+         socket_poller.cpp
+         socks.cpp
+         socks_connecter.cpp
+         stream.cpp
+         stream_engine.cpp
+         sub.cpp
+         tcp.cpp
+         tcp_address.cpp
+         tcp_connecter.cpp
+         tcp_listener.cpp
+         thread.cpp
+         timers.cpp
+         trie.cpp
+         udp_address.cpp
+         udp_engine.cpp
+         v1_decoder.cpp
+         v1_encoder.cpp
+         v2_decoder.cpp
+         v2_encoder.cpp
+         xpub.cpp
+         xsub.cpp
+         zmq.cpp
+         zmq_utils.cpp
+         D:\wsd\vs\VC\bin\CL.exe /c /I"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\\" /I"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\include\\" /Zi /nologo /W3 /WX- /MP /O2 /Ob1 /Oi /Oy- /D DLL_EXPORT /D ZMQ_USE_SELECT /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D FD_SETSIZE=16384 /D WIN32_LEAN_AND_MEAN /D _DLL /D _WINDLL /D NDEBUG /D UNICODE /D _UNICODE /D WIN32 /D _WIN32 /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\\" /Fd"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt /Oy- ..\..\..\..\src\tweetnacl.c
+         tweetnacl.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /l"0x0409" /nologo /fo"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\resource.res" ..\..\resource.rc 
+       Link:
+         D:\wsd\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\bin\Win32\Release\v110\dynamic\libzmq.dll" /INCREMENTAL:NO /NOLOGO Advapi32.lib Ws2_32.lib Rpcrt4.lib Iphlpapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\bin\Win32\Release\v110\dynamic\libzmq.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\bin\Win32\Release\v110\dynamic\libzmq.lib" /MACHINE:X86 /SAFESEH /DLL "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\resource.res"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\address.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\client.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\clock.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\ctx.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\curve_client.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\curve_server.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\dealer.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\decoder_allocators.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\devpoll.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\dgram.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\dish.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\dist.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\epoll.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\err.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\fq.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\gather.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\gssapi_client.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\gssapi_mechanism_base.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\gssapi_server.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\io_object.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\io_thread.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\ip.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\ipc_address.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\ipc_connecter.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\ipc_listener.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\kqueue.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\lb.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\mailbox.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\mailbox_safe.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\mechanism.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\metadata.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\msg.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\mtrie.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\null_mechanism.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\object.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\options.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\own.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\pair.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\pgm_receiver.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\pgm_sender.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\pgm_socket.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\pipe.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\plain_client.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\plain_server.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\poll.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\poller_base.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\precompiled.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\proxy.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\pub.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\pull.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\push.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\radio.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\random.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\raw_decoder.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\raw_encoder.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\reaper.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\rep.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\req.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\router.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\scatter.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\select.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\server.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\session_base.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\signaler.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\socket_base.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\socket_poller.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\socks.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\socks_connecter.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\stream.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\stream_engine.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\sub.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\tcp.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\tcp_address.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\tcp_connecter.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\tcp_listener.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\thread.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\timers.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\trie.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\tweetnacl.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\udp_address.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\udp_engine.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\v1_decoder.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\v1_encoder.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\v2_decoder.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\v2_encoder.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\xpub.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\xsub.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\zmq.obj"
+         "D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\obj\libzmq\Win32\Release\v110\dynamic\zmq_utils.obj"
+            正在创建库 D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\bin\Win32\Release\v110\dynamic\libzmq.lib 和对象 D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\bin\Win32\Release\v110\dynamic\libzmq.exp
+         libzmq.vcxproj -> D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\..\..\..\..\bin\Win32\Release\v110\dynamic\libzmq.dll
+     1>已完成生成项目“D:\wsd\c++API\zeromq-4.2.1\zeromq-4.2.1\builds\msvc\vs2012\libzmq\libzmq.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.97
